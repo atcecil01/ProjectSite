@@ -1,1 +1,19 @@
 
+
+/* --- ID Styles --- */
+
+#mainTitle {
+    background-color: gray;
+    margin-top: 0;
+}
+
+
+/* --- Class Styles --- */
+
+.navigation {
+    list-style: none;
+}
+
+/* --- Media Queries --- */
+
+
