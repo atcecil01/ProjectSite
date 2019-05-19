@@ -2,22 +2,38 @@
 
 /* --- ID Styles --- */
 
+#header, #nav {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    justify-content: space-between;
+}
+
+#nav {
+    list-style: none;
+}
+
 #mainTitle {
     background-color: gray;
     margin-top: 0;
 }
 
-
 /* --- Class Styles --- */
 
-.navigation {
-    list-style: none;
-}
 
 .main-img {
-    max-width: 400px;
+    width: 90%;
+    border-radius: 10px 50px 10px 50px;
+    border: 8px solid darkblue;
+    
 }
 
+.heading {
+    text-align: center;
+    font-size: 3em;
+}
 
 /* --- Media Queries --- */
 
