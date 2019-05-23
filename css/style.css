@@ -1,10 +1,16 @@
 
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
 
 /* --- ID Styles --- */
 
 #header, #nav {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
 }
 
 #header {
@@ -13,11 +19,18 @@
 
 #nav {
     list-style: none;
+    display: flex;
+    text-align: center;
+    padding: 0 50px;
 }
 
 #mainTitle {
     background-color: gray;
     margin-top: 0;
+    color: whitesmoke;
+    font-size: 3em;
+    padding: .75em 0;
+    text-align: center;
 }
 
 /* --- Class Styles --- */
@@ -27,7 +40,7 @@
     width: 90%;
     border-radius: 10px 50px 10px 50px;
     border: 8px solid darkblue;
-    
+
 }
 
 .heading {
@@ -35,6 +48,12 @@
     font-size: 3em;
 }
 
+.nav-link {
+  background-color: rgb(33, 110, 51);
+  padding: 15px 15px;
+  margin: 5px;
+  border-radius: 3px;
+  font-size: 2em;
+}
+
 /* --- Media Queries --- */
-
-
