@@ -1,4 +1,5 @@
 
+/* --- General Styles --- */
 a {
     text-decoration: none;
     font-weight: bolder;
@@ -29,7 +30,6 @@ p {
 }
 
 #mainTitle {
-    background-color: gray;
     margin-top: 0;
     color: whitesmoke;
     font-size: 3em;
@@ -37,8 +37,15 @@ p {
     text-align: center;
 }
 
+.header {
+  background-color: gray;
+}
+
 /* --- Class Styles --- */
 
+.menu-button {
+  display: none;
+}
 
 .main-img {
     width: 65%;
@@ -64,10 +71,52 @@ p {
 
 @media (min-width: 1028px) {
 
-  #header, #nav, #mainTitle {
+/* --- Header and menu styling --- */
+  .header, #mainTitle {
     display: flex;
-    flex-direction: row;
   }
+
+  .menu-button {
+    display: block;
+    font-weight: 700;
+    background-color: gray;
+    border: none;
+    padding-right: 30px;
+  }
+
+  .menu-button:hover {
+    background-color: darkgray;
+  }
+
+  .header {
+    justify-content: space-between;
+  }
+
+  .button-line {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #nav {
+    /* --- Left align navigation buttons and add curtain behind to add separation --- */
+    background-color: darkgray;
+    margin-top: 0;
+    text-align: right;
+  }
+
+  .nav-link {
+    background-color: darkgray;
+    padding: 15px 15px;
+    margin: 0;
+    border-radius: 3px;
+    font-size: 2em;
+  }
+
+/* --- Body Styling --- */
 
   .main-img {
     width: 35%;
@@ -76,10 +125,11 @@ p {
   .row {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: stretch;
   }
 
   .col {
-    flex: 1 50%;
+    flex: 1 45%;
+    padding: 1.5em 0;
   }
 }
