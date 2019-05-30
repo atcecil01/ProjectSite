@@ -22,18 +22,8 @@ p {
 
 /* --- ID Styles --- */
 
-#header, #nav {
-    display: flex;
-    flex-direction:column;
-}
-
-#header {
-    justify-content: space-between;
-}
-
 #nav {
     list-style: none;
-    display: flex;
     text-align: center;
     padding: 0 50px;
 }
@@ -71,3 +61,25 @@ p {
 }
 
 /* --- Media Queries --- */
+
+@media (min-width: 1028px) {
+
+  #header, #nav, #mainTitle {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main-img {
+    width: 35%;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .col {
+    flex: 1 50%;
+  }
+}
