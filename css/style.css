@@ -7,7 +7,8 @@ a {
 }
 
 body {
-  background-image: url("../img/nav_img2.JPG");
+/*  background-image: url("../img/nav_img2.JPG");  */
+  background-color: blue;
   background-repeat: no-repeat;
   background-attachment: fixed;
   text-align: center;
@@ -40,8 +41,6 @@ p {
 .header {
   background-color: gray;
 }
-
-/* --- Class Styles --- */
 
 /* --- Header and menu styling --- */
 .header, #mainTitle {
@@ -86,6 +85,8 @@ p {
   margin-top: 0;
   text-align: right;
 }
+
+/* --- Class Styles --- */
 
 .button-line {
   width: 35px;
