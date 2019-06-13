@@ -21,6 +21,10 @@ p {
   padding: 0 20%;
 }
 
+li {
+  list-style: none;
+}
+
 /* --- ID Styles --- */
 
 #nav {

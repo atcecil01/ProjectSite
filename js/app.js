@@ -6,8 +6,6 @@ var nav = document.getElementById('nav')
 var sWidth = window.screen.width;
 console.log("Initial Width: " + sWidth);
 
-
-
 // Create button event to toggle navigation menu view
 menuButton.addEventListener("click", function() {
   // Test button functionality
