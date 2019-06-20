@@ -7,13 +7,12 @@ a {
 }
 
 body {
-  background-image: url("navImg2.JPG");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-image: linear-gradient(to bottom right, rgb(66, 85, 92), rgb(190, 214, 124));
+  /* background-color: rgb(76, 101, 110); */
   text-align: center;
   font-weight: 600;
-  color: rgb(0, 212, 91);
-  text-shadow: 2px 2px 3px black;
+  color: rgb(190, 190, 190);
+  text-shadow: 0 0 15px black;
 }
 
 p {
@@ -35,14 +34,14 @@ li {
 
 #mainTitle {
   margin-top: 0;
-  color: whitesmoke;
+  color: rgb(190, 190, 190);
   font-size: 3em;
   padding: .75em 0;
   text-align: center;
 }
 
 .header {
-  background-color: gray;
+  background-color: rgb(73, 71, 71);
 }
 
 /* --- Header and menu styling --- */
@@ -84,7 +83,7 @@ li {
   /*-- display: none -  to start to hide menu, toggled in app.js --*/
   display: none;
   /* --- Left align navigation buttons and add curtain behind to add separation --- */
-  background-color: rgb(47, 44, 44);
+  background-color: gray;
   margin-top: 0;
   text-align: right;
 }
@@ -103,7 +102,7 @@ li {
 .main-img {
     width: 65%;
     border-radius: 10px 50px 10px 50px;
-    border: 8px solid rgb(49, 122, 122);
+    border: 8px solid rgb(13, 97, 20);
 
 }
 
@@ -113,18 +112,31 @@ li {
 }
 
 .nav-link {
-  background-color: rgb(47, 44, 44);
+  background-color:gray;
   padding: 15px 15px;
-  margin: 5px;
   border-radius: 3px;
   font-size: 2em;
 }
 
+/* --- Image Carousel Styles --- */
+/* .img-thumb {
+  max-width: 60%;
+}
+
+.column {
+  float:left;
+  width: 25%;
+  padding 10px;
+} */
+
+.img-display {
+  width: 700px;
+}
+
+
 /* --- Media Queries --- */
 
 @media (min-width: 1028px) {
-
-
 
 /* --- Body Styling --- */
 
