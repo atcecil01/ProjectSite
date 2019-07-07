@@ -18,7 +18,6 @@ $('.prev').click(function() {
     };
 });
 
-
 $('.next').click(function() {
     if (index < (imgArray.length - 1)) {
         console.log("jQuery load successfull")
