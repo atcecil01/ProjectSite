@@ -15,7 +15,7 @@ body {
 }
 
 p {
-  font-size: 1.25em;
+  font-size: 2em;
   padding: 0 20%;
   text-shadow: 8px 5px 10px black;
 }
@@ -141,6 +141,10 @@ li {
 @media (min-width: 1028px) {
 
 /* --- Body Styling --- */
+
+p {
+  font-size: 1.25em;
+}
 
   .main-img {
     width: 35%;
