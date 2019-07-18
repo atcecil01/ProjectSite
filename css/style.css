@@ -42,7 +42,7 @@ li {
   font-size: 3em;
   padding: .75em 0;
   text-align: center;
-
+  padding-left: 3rem;
 }
 
 .header {
@@ -109,6 +109,10 @@ li {
   padding: 30px 45px;
   margin-bottom: 10px;
   border-radius: 25px;
+}
+
+.car-btn:hover {
+  background-color: rgb(35, 155, 75);
 }
 
 
